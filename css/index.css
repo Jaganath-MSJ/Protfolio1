@@ -1,3 +1,106 @@
-h2 {
-    color: red;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(194, 189, 190);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav>h2 {
+    padding-left: 40px;
+    font-size: 30px;
+    color: blueviolet;
+    cursor: pointer;
+}
+.navLink {
+    padding-right: 10em;
+}
+.navLink>li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navLink>li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.navLink>li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: dodgerblue;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navLink>li:hover::after {
+    width: 100%;    
+}
+
+.home {
+    text-align: center;
+    margin-top: 20em;
+    margin-bottom: 20em;
+}
+.home>h3 {
+    font-size: 25px;
+}
+.home>h1 {
+    font-size: 60px;
+}
+.home>h2 {
+    font-size: 30px;
+}
+
+.aboutme {
+    display: grid;
+    grid-template-columns: [one] 40% [two] 60%;
+}
+.aboutme>div {
+    margin-left: 100px;
+}
+.img_aboutme>img {
+    width: 90%;
+}
+.details_aboutme {
+    padding-left: -20em;
+}
+.details_aboutme>h1 {
+    font-size: 60px;
+}
+.details_aboutme>h3 {
+    font-size: 25px;
+    color: rgb(160, 158, 158);
+}
+.details_aboutme>div {
+    display: grid;
+    grid-template-columns: [one] 30% [two] 50%;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+.about_aboutme {
+    color: rgb(65, 63, 63);
+}
+.details_aboutme>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 20px solid dodgerblue;
+    background-color: dodgerblue;
+    border-radius: 50px;
 }
