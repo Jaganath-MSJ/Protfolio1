@@ -11,7 +11,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(194, 189, 190);
+    background-color: rgb(194, 189, 190);
     display: flex;
     justify-content: space-between;
 }
@@ -24,8 +24,14 @@ nav>h2>a {
 nav>h2>a:hover {
     content: '';
     color: blueviolet;
-    left: 0;
     transition: 0.5s;
+}
+.menu {
+    margin-right: -20em;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
 }
 .menu>li {
     list-style: none;
@@ -110,6 +116,9 @@ nav>h2>a:hover {
     border: 20px solid dodgerblue;
     background-color: dodgerblue;
     border-radius: 50px;
+}
+.details_aboutme>a>i {
+    font-size: 25px;
 }
 .details_aboutme>a:hover {
     color: black;
