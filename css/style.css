@@ -156,11 +156,13 @@ footer {
     flex-direction: column;
 }
 .footer_About>p {
-    margin-right: 9em;
+    margin-right: 5em;
     color: rgb(173, 169, 169);
+    font-size: 19px;
 }
 .footer_Links>a {
     font-weight: bold;
+    font-size: 19px;
     padding: 8px 0px;
     color: rgb(173, 169, 169);
     transition: .5s;
@@ -171,11 +173,11 @@ footer {
 }
 .footer_Contact>p {
     color: rgb(173, 169, 169);
+    font-size: 19px;
 }
 .footer_Contact>p>i {
     color: blueviolet;
     padding-right: 10px;
-    font-size: 19px;
 }
 .footer_Contact>div {
     margin: 20px 0px;
@@ -196,6 +198,7 @@ footer {
     transition: .7s;
 }
 footer>p {
+    font-size: 19px;
     text-align: center;
     padding-top: 30px;
 }
