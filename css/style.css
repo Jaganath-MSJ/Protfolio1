@@ -17,6 +17,7 @@ a {
     background-color: rgba(30, 143, 255, 0.8);
 }
 
+/* nav start */
 nav {
     position: fixed;
     top: 0;
@@ -75,68 +76,118 @@ nav>h2>a:hover {
         display: none;
     }
 }
+/* nav end */
 
+/* home start */
 .home {
     text-align: center;
-    margin-top: 15em;
-    margin-bottom: 20em;
+    padding: 15em 0em 12em 0em;
 }
-.home>h3 {
+.home>div {
+    text-align: center;
+}
+.home h3 {
     font-size: 20px;
 }
-.home>h1 {
+.home h1 {
     font-size: 55px;
 }
-.home>h2 {
+.home h2 {
     font-size: 25px;
 }
+/* home end */
 
+/* about me start */
 .aboutme {
-    display: grid;
-    grid-template-columns: [one] 40% [two] 60%;
+    margin-bottom: 2em;
+    padding: 3em 0em;
+}
+.aboutme>h1 {
+    font-size: 45px;
+    text-align: center;
     margin-bottom: 2em;
 }
+.aboutme>h1>i {
+    font-size: 40px;
+}
 .aboutme>div {
+    display: grid;
+    grid-template-columns: [one] 40% [two] 60%;
+}
+.aboutme>div>div {
     margin-left: 100px;
 }
-.img_aboutme>img {
-    width: 90%;
+.aboutme_img>img {
+    margin-left: 5em;
+    width: 22em;
+    border-radius: 20px;
 }
-.details_aboutme {
+.aboutme_details {
     padding-left: -20em;
 }
-.details_aboutme>h1 {
-    font-size: 50px;
+.aboutme_details>h2 {
+    font-weight: bolder;
 }
-.details_aboutme>h3 {
-    font-size: 20px;
-    color: rgb(160, 158, 158);
+.aboutme_details>p {
+    font-weight: bold;
 }
-.details_aboutme>div {
+.aboutme_details>h4 {
+    padding-right: 10em;
+    font-size: 18px;
+    font-weight: lighter;
+    color: black;
+}
+.aboutme_contact {
     display: grid;
     grid-template-columns: [one] 30% [two] 50%;
-    font-size: 20px;
-    margin-bottom: 80px;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
-.about_aboutme {
-    color: rgb(65, 63, 63);
+.aboutme_contact>p {
+    color: dodgerblue;
 }
-.details_aboutme>a {
+.aboutme_contact>p>span {
+    color: black;
+    margin-left: 5px;
+}
+.aboutme_details>a {
     color: white;
     font-weight: bold;
     font-size: 18px;
     border: 20px solid dodgerblue;
     background-color: dodgerblue;
     border-radius: 50px;
+    transition: .5s;
 }
-.details_aboutme>a>i {
+.aboutme_details>a>i {
     font-size: 25px;
 }
-.details_aboutme>a:hover {
+.aboutme_details>a:hover {
     color: black;
-    transition: 0.5s;
+    transition: .5s;
 }
+/* about me end */
 
+/* education start */
+.education {
+    padding: 20px;
+    background-color: #2b3dda;
+    color: white;
+}
+.education>h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.education>ul {
+    margin-left: 15em;
+    margin-right: 10em;
+    padding: 20px 40px;
+    background-color: #182385;
+    border-radius: 10px;
+}
+/* education end */
+
+/* footer start */
 footer {
     background-color: black;
     width: 100%;
@@ -213,3 +264,4 @@ footer>p>a:hover {
     color: white;
     transition: .5s;
 }
+/* footer end */
