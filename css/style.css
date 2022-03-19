@@ -187,6 +187,76 @@ nav>h2>a:hover {
 }
 /* education end */
 
+/* contact start */
+.contact {
+    padding:  20px;
+}
+.contact>h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.contact>div {
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: 20px 40px;
+    background-color: rgb(226, 220, 221);
+    border-radius: 20px;
+    display: flex;
+}
+.conatct_Image {
+    margin-right: -20em;
+}
+.conatct_Image>img {
+    width: 50%;
+}
+.contact_Input {
+    margin: 20px 0px;
+}
+.contact_Input>i {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.contact_Input>input, .contact_Input>textarea {
+    width: 30em;
+    height: 40px;
+    font-size: 18px;
+    word-spacing: normal;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-indent: 50px;
+}
+.contact_Input>textarea {
+    width: 29em;
+    height: 90px;
+    text-indent: 40px;
+    padding: 10px;
+}
+.contact_Submit {
+    text-align: right;
+}
+.contact_Submit>i {
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 14px;
+    font-size: 15px;
+    color: white;
+}
+.contact_Submit>input {
+    width: 8em;
+    height: 45px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* contact end */
+
 /* footer start */
 footer {
     background-color: black;
