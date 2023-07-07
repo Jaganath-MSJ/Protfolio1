@@ -213,10 +213,12 @@ nav>h2>a:hover {
     margin: 20px 0px;
 }
 .contact_Input>i {
+    color: gray;
     position: absolute;
     margin-left: 20px;
     margin-top: 10px;
     font-size: 20px;
+    pointer-events: none;
 }
 .contact_Input>input, .contact_Input>textarea {
     width: 30em;
