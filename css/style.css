@@ -4,6 +4,7 @@ body {
     font-family: sans-serif;
     background-color: #f7f7f7;
 }
+
 a {
     text-decoration: none;
 }
@@ -12,6 +13,7 @@ a {
     width: 10px;
     background-color: wheat;
 }
+
 ::-webkit-scrollbar-thumb {
     border-radius: 50px;
     background-color: rgba(30, 143, 255, 0.8);
@@ -26,37 +28,45 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
 nav>h2>a {
     padding-left: 40px;
     font-size: 25px;
     color: black;
 }
+
 nav>h2>a:hover {
     color: blueviolet;
     transition: 0.5s;
 }
+
 .menu {
     margin-right: 3em;
 }
+
 .menu {
     display: flex;
     flex-wrap: wrap;
 }
+
 .menu>li {
     list-style: none;
     display: inline-block;
     margin: 5px 20px;
     position: relative;
 }
+
 .menu>li>a {
     color: black;
     font-size: 20px;
     transition: .5s;
 }
+
 .menu>li>a:hover {
     color: dodgerblue;
     transition: .5s;
 }
+
 .menu>li::after {
     content: '';
     height: 3px;
@@ -67,6 +77,7 @@ nav>h2>a:hover {
     bottom: -10px;
     transition: 0.5s;
 }
+
 .menu>li:hover::after {
     width: 100%;
 }
@@ -76,6 +87,7 @@ nav>h2>a:hover {
         display: none;
     }
 }
+
 /* nav end */
 
 /* home start */
@@ -83,18 +95,23 @@ nav>h2>a:hover {
     text-align: center;
     padding: 15em 0em 12em 0em;
 }
+
 .home>div {
     text-align: center;
 }
+
 .home h3 {
     font-size: 20px;
 }
+
 .home h1 {
     font-size: 55px;
 }
+
 .home h2 {
     font-size: 25px;
 }
+
 /* home end */
 
 /* about me start */
@@ -102,54 +119,67 @@ nav>h2>a:hover {
     margin-bottom: 2em;
     padding: 3em 0em;
 }
+
 .aboutme>h1 {
     font-size: 45px;
     text-align: center;
     margin-bottom: 2em;
 }
+
 .aboutme>h1>i {
     font-size: 40px;
 }
+
 .aboutme>div {
     display: grid;
     grid-template-columns: [one] 40% [two] 60%;
 }
+
 .aboutme>div>div {
     margin-left: 100px;
 }
+
 .aboutme_img>img {
     margin-left: 5em;
     width: 22em;
     border-radius: 20px;
 }
+
 .aboutme_details {
     padding-left: -20em;
 }
+
 .aboutme_details>h2 {
     font-weight: bolder;
 }
+
 .aboutme_details>p {
     font-weight: bold;
 }
+
 .aboutme_details>h4 {
     padding-right: 10em;
     font-size: 18px;
     font-weight: lighter;
     color: black;
 }
+
 .aboutme_contact {
     display: grid;
     grid-template-columns: [one] 30% [two] 50%;
     font-size: 18px;
     margin-bottom: 30px;
 }
+
 .aboutme_contact>p {
     color: dodgerblue;
 }
+
 .aboutme_contact>p>span {
     color: black;
     margin-left: 5px;
 }
+
 .aboutme_details>a {
     color: white;
     font-weight: bold;
@@ -159,13 +189,16 @@ nav>h2>a:hover {
     border-radius: 50px;
     transition: .5s;
 }
+
 .aboutme_details>a>i {
     font-size: 25px;
 }
+
 .aboutme_details>a:hover {
     color: black;
     transition: .5s;
 }
+
 /* about me end */
 
 /* education start */
@@ -174,10 +207,12 @@ nav>h2>a:hover {
     background-color: #2b3dda;
     color: white;
 }
+
 .education>h1 {
     text-align: center;
     font-size: 35px;
 }
+
 .education>ul {
     margin-left: 15em;
     margin-right: 10em;
@@ -185,16 +220,19 @@ nav>h2>a:hover {
     background-color: #182385;
     border-radius: 10px;
 }
+
 /* education end */
 
 /* contact start */
 .contact {
-    padding:  20px;
+    padding: 20px;
 }
+
 .contact>h1 {
     text-align: center;
     font-size: 35px;
 }
+
 .contact>div {
     margin-left: 10em;
     margin-right: 10em;
@@ -203,15 +241,19 @@ nav>h2>a:hover {
     border-radius: 20px;
     display: flex;
 }
+
 .conatct_Image {
     margin-right: -20em;
 }
+
 .conatct_Image>img {
     width: 50%;
 }
+
 .contact_Input {
     margin: 20px 0px;
 }
+
 .contact_Input>i {
     color: gray;
     position: absolute;
@@ -220,7 +262,9 @@ nav>h2>a:hover {
     font-size: 20px;
     pointer-events: none;
 }
-.contact_Input>input, .contact_Input>textarea {
+
+.contact_Input>input,
+.contact_Input>textarea {
     width: 30em;
     height: 40px;
     font-size: 18px;
@@ -229,15 +273,18 @@ nav>h2>a:hover {
     border-radius: 5px;
     text-indent: 50px;
 }
+
 .contact_Input>textarea {
     width: 29em;
     height: 90px;
     text-indent: 40px;
     padding: 10px;
 }
+
 .contact_Submit {
     text-align: right;
 }
+
 .contact_Submit>i {
     position: absolute;
     margin-left: -45px;
@@ -245,6 +292,7 @@ nav>h2>a:hover {
     font-size: 15px;
     color: white;
 }
+
 .contact_Submit>input {
     width: 8em;
     height: 45px;
@@ -257,6 +305,7 @@ nav>h2>a:hover {
     border-radius: 8px;
     cursor: pointer;
 }
+
 /* contact end */
 
 /* footer start */
@@ -267,22 +316,26 @@ footer {
     padding-top: 30px;
     padding-bottom: 1px;
 }
+
 .footer_Content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 8em;
 }
+
 .footer_Content>div {
     width: 30%;
     display: flex;
     flex-direction: column;
 }
+
 .footer_About>p {
     margin-right: 5em;
     color: rgb(173, 169, 169);
     font-size: 19px;
 }
+
 .footer_Links>a {
     font-weight: bold;
     font-size: 19px;
@@ -290,21 +343,26 @@ footer {
     color: rgb(173, 169, 169);
     transition: .5s;
 }
+
 .footer_Links>a:hover {
     color: dodgerblue;
     transition: .5s;
 }
+
 .footer_Contact>p {
     color: rgb(173, 169, 169);
     font-size: 19px;
 }
+
 .footer_Contact>p>i {
     color: blueviolet;
     padding-right: 10px;
 }
+
 .footer_Contact>div {
     margin: 20px 0px;
 }
+
 .footer_Contact>div>a {
     font-size: 18px;
     padding: 10px;
@@ -315,25 +373,31 @@ footer {
     border-radius: 50px;
     transition: .7s;
 }
+
 .footer_Contact>div>a:hover {
     background-color: transparent;
     color: blueviolet;
     transition: .7s;
 }
+
 footer>p {
     font-size: 19px;
     text-align: center;
     padding-top: 30px;
 }
+
 footer>p>i {
     color: red;
 }
+
 footer>p>a {
     color: blueviolet;
     transition: .5s;
 }
+
 footer>p>a:hover {
     color: white;
     transition: .5s;
 }
+
 /* footer end */
